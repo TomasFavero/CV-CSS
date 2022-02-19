@@ -195,6 +195,12 @@ hr {
   text-decoration: none;
 }
 
+.toys {
+  border: 20px;
+
+}
+
+
 .btn:hover {
   background: #2C719E;
   background-image: -webkit-linear-gradient(top, #2C719E, #5AB0EB);
