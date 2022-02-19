@@ -1,0 +1,227 @@
+body {
+  margin: 0;
+  text-align: center;
+  font-family: 'Patrick Hand SC', cursive;
+}
+
+h1 {
+  margin: 0;
+  color: #2C719E;
+  font-family: 'Caveat', cursive;
+  font-size: 7rem;
+  position: relative;
+  bottom: 300px;
+}
+
+h2 {
+  color: #2C719E;
+  font-family: 'Caveat', cursive;
+  font-size: 60px;
+  font-weight: normal;
+}
+
+h3 {
+  color: #2C719E;
+  font-family: 'Caveat', cursive;
+  font-size: 35px;
+}
+
+p {
+  font-family: 'Roboto Slab', serif;
+  font-size: 20px;
+  color: #2D4454;
+}
+
+a {
+  font-family: 'Roboto Slab', serif;
+  color: #2C719E;
+}
+
+hr {
+  color: #D1B184;
+  border-style: dotted none none none;
+  width: 8%;
+  border-width: 15px;
+  margin-top: 150px;
+  margin-bottom: 150px;
+}
+
+/****************class selectors*******************/
+.top-container {
+  background-color: #5AB0EB;
+  position: relative;
+  padding-top: 500px;
+}
+
+.cloud-top {
+  position: absolute;
+  right: 25%;
+  top: 10%;
+  width: 8%
+}
+
+.cloud-top-top {
+  position: absolute;
+  right: 5%;
+  top: 1%;
+  width: 8%
+}
+
+.cloud-top-right {
+  position: absolute;
+  right: 5%;
+  top: 30%;
+  width: 8%
+}
+
+.cloud-bottom-right {
+  position: absolute;
+  right: 25%;
+  top: 45%;
+  width: 8%
+}
+
+.cloud-bottom-bottom {
+  position: absolute;
+  right: 8%;
+  top: 70%;
+  width: 8%
+}
+
+.cloud-left {
+  position: absolute;
+  left: 25%;
+  top: 10%;
+  width: 8%
+}
+
+.cloud-top-left {
+  position: absolute;
+  left: 5%;
+  top: 1%;
+  width: 8%
+}
+
+
+.cloud-bottom-bottom-left {
+  position: absolute;
+  left: 8%;
+  top: 70%;
+  width: 8%
+}
+
+.cloud-bottom {
+  position: absolute;
+  left: 25%;
+  top: 45%;
+  width: 8%;
+}
+
+.cloud-left-left {
+  position: absolute;
+  left: 5%;
+  top: 30%;
+  width: 8%;
+}
+
+.subtitulo {
+  color: #2C719E;
+  font-family: 'Inconsolata', monospace;
+  font-size: 1.5rem;
+  font-weight: bold;
+  margin: 0;
+  bottom: 300px;
+  position: relative;
+}
+
+.perfil {
+  border-radius: 100%;
+  width: 250px;
+  height: 250px;
+}
+
+.gif-skills {
+  border-radius: 100%;
+  width: 25%;
+  float: left;
+  margin-right: 30px;
+}
+
+.gif-elmo {
+  border-radius: 100%;
+  width: 25%;
+  float: right;
+  margin-left: 30px;
+}
+
+.imagen-burbujas {
+  border-radius: 100%;
+}
+
+.skill-row {
+  width: 50%;
+  margin: 100px auto 100px auto;
+  text-align: left;
+  line-height: 2;
+}
+
+.footer-link {
+  color: #2C719E;
+  font-weight: bold;
+  font-size: 1.5rem;
+  font-family: 'Inconsolata', monospace;
+  padding: 0 25px 0 25px;
+}
+
+.TM {
+  color: #EAF6F6;
+  padding-top: 50px;
+}
+
+.btn {
+  background: #5AB0EB;
+  background-image: -webkit-linear-gradient(top, #5AB0EB, #2C719E);
+  background-image: -moz-linear-gradient(top, #5AB0EB, #2C719E);
+  background-image: -ms-linear-gradient(top, #5AB0EB, #2C719E);
+  background-image: -o-linear-gradient(top, #5AB0EB, #2C719E);
+  background-image: linear-gradient(to bottom, #5AB0EB, #2C719E);
+  -webkit-border-radius: 20;
+  -moz-border-radius: 20;
+  border-radius: 20px;
+  font-family: Arial;
+  color: #ffffff;
+  font-size: 20px;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+}
+
+.btn:hover {
+  background: #2C719E;
+  background-image: -webkit-linear-gradient(top, #2C719E, #5AB0EB);
+  background-image: -moz-linear-gradient(top, #2C719E, #5AB0EB);
+  background-image: -ms-linear-gradient(top, #2C719E, #5AB0EB);
+  background-image: -o-linear-gradient(top, #2C719E, #5AB0EB);
+  background-image: linear-gradient(to bottom, #2C719E, #5AB0EB);
+  text-decoration: none;
+}
+
+.contacto {
+  font-weight: bold;
+  font-size: 1rem;
+  line-height: 2;
+  padding-bottom: 30px;
+  width: 25%;
+  margin: 30px auto 50px
+}
+
+.middle-container {
+  padding-top: 100px;
+  padding-bottom: 100px;
+  background-color: #D6ECFF;
+}
+
+.bottom-container {
+  background-color: #5AB0EB;
+  padding-top: 50px;
+  padding-bottom: 20px;
+}
